@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/micro-service-one/(.*)",
+      "destination": "/dist/apps/api/micro-service-one"
+    },
+    {
+      "source": "/micro-service-two/(.*)",
+      "destination": "/dist/apps/api/micro-service-two"
+    }
+  ]
+}
