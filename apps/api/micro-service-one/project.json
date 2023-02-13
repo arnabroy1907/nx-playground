@@ -10,6 +10,7 @@
       "options": {
         "outputPath": "dist/apps/api/micro-service-one",
         "format": ["cjs"],
+        "outputFileName": "index.js",
         "main": "apps/api/micro-service-one/src/main.ts",
         "tsConfig": "apps/api/micro-service-one/tsconfig.app.json",
         "assets": ["apps/api/micro-service-one/src/assets"]
