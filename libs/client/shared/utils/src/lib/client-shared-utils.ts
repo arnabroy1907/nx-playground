@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const microServiceOne = 'http://localhost:8080/micro-service-one';
-const microServiceTwo = 'http://localhost:8081/micro-service-two';
+const microServiceOne = 'http://localhost:8080/api/micro-service-one';
+const microServiceTwo = 'http://localhost:8080/api/micro-service-two';
 
 export function clientSharedUtils(): string {
   return 'client-shared-utils';
