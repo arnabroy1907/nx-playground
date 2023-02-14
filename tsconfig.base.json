@@ -21,6 +21,7 @@
       "@nx-playground/client/shared/utils": [
         "libs/client/shared/utils/src/index.ts"
       ],
+      "@nx-playground/common/config": ["libs/common/config/src/index.ts"],
       "@nx-playground/server/ms-one/utils": [
         "libs/server/ms-one/utils/src/index.ts"
       ],

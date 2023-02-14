@@ -1,7 +1,9 @@
 import axios from 'axios';
+import { getConfig } from '@nx-playground/common/config';
 
-const microServiceOne = 'http://localhost:8080/api/micro-service-one';
-const microServiceTwo = 'http://localhost:8080/api/micro-service-two';
+const microServiceBaseUrl = getConfig<string>('microServiceApiBaseUrl') || '';
+const microServiceOne = `${microServiceBaseUrl}/micro-service-one`;
+const microServiceTwo = `${microServiceBaseUrl}/micro-service-two`;
 
 export function clientSharedUtils(): string {
   return 'client-shared-utils';
